@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website profil pribadi dan portofolio.">
+  <title>Profil Pribadi | Uda Amirudin</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header" id="beranda">
+    <nav class="navbar container" aria-label="Navigasi utama">
+      <a class="logo" href="#beranda">Profil<span> Uda Amirudin</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#pendidikan">Pendidikan</a></li>
+        <li><a href="#proyek">Proyek</a></li>
+        <li><a class="nav-contact" href="#kontak">Hubungi Saya <span>↗</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> MAHASISWA • CALON PROFESIONAL IT</p>
+        <h1>Halo, saya<br><span class="accent">Uda Amirudin.</span></h1>
+        <p class="hero-description">
+          Saya sedang belajar teknologi dan pengembangan web, serta senang mencoba hal baru untuk mengembangkan kemampuan.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#kontak">Hubungi Saya <span>↗</span></a>
+          <a class="button button-secondary" href="#tentang">Kenali Saya</a>
+        </div>
+        <div class="hero-note">
+          <span class="note-line"></span>
+          <span>Terus belajar. Terus berkembang.</span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-glow"></div>
+        <div class="profile-frame">
+          <img src="assets/4.jpg" alt="Ilustrasi pengganti foto profil" class="profile-image">
+          <div class="profile-caption">
+            <span class="caption-mark">✳</span>
+            <div><strong>Selalu bertumbuh</strong><small>Belajar satu langkah setiap hari</small></div>
+          </div>
+        </div>
+        <div class="floating-card card-top"><span class="floating-icon">⌘</span><span>Curious mind</span></div>
+        <div class="floating-card card-bottom"><span class="floating-icon">✦</span><span>Creative learner</span></div>
+      </div>
+    </section>
+
+    <section class="quick-facts">
+      <div class="container facts-grid">
+        <div><span class="fact-label">DOMISILI</span><strong>Selakau</strong></div>
+        <div><span class="fact-label">PENDIDIKAN</span><strong>Universitas Tanjungpura</strong></div>
+        <div><span class="fact-label">MINAT</span><strong>Developer Game</strong></div>
+        <div><span class="fact-label">STATUS</span><strong><span class="status-dot"></span> Jomblo </strong></div>
+      </div>
+    </section>
+
+    <section class="section container" id="tentang">
+      <div class="section-heading">
+        <p class="eyebrow">01 / TENTANG SAYA</p>
+        <h2>Mengenal saya <span class="accent">lebih dekat.</span></h2>
+      </div>
+      <div class="about-grid">
+        <p class="about-lead">Saya percaya kemampuan hebat dibangun dari rasa ingin tahu, konsistensi, dan keberanian untuk mencoba.</p>
+        <div class="about-detail">
+          <p>Saya adalah mahasiswa yang tertarik dengan dunia teknologi informasi. Saat ini, saya sedang mempelajari dasar-dasar pemrograman, pengembangan website, dan cara memanfaatkan teknologi untuk menyelesaikan masalah.</p>
+          <p>Di luar kegiatan belajar, saya suka <strong>bermain game</strong>. Saya ingin terus menambah pengalaman, mengembangkan keterampilan, dan membuat karya yang bermanfaat.</p>
+          <div class="skill-list">
+            <span>HTML dasar</span><span>CSS dasar</span><span>Python dasar</span><span>Problem solving</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="pendidikan">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">02 / PERJALANAN</p>
+          <h2>Pendidikan & <span class="accent">pengalaman.</span></h2>
+          <p class="section-subtitle">Perjalanan saya sejauh ini dan hal-hal yang sedang saya kembangkan.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-date">TAHUN SEKARANG</div>
+            <div class="timeline-content">
+              <h3>Mahasiswa — Universitas Tanjungpura</h3>
+              <p>Program studi: Sistem informasi</p>
+              <p class="muted">Mempelajari dasar teknologi informasi, pemrograman, dan sistem informasi.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-date">TAHUN SEBELUMNYA</div>
+            <div class="timeline-content">
+              <h3>SMAN 1 Selakau</h3>
+              <p>Riwayat pendidikan</p>
+              <p class="muted">Tambahkan kegiatan, organisasi, kepanitiaan, atau prestasi jika ada.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-date">SAAT INI</div>
+            <div class="timeline-content">
+              <h3>Belajar mandiri</h3>
+              <p>HTML, CSS, JavaScript, dan Python</p>
+              <p class="muted">Membangun fondasi pemrograman melalui latihan dan proyek kecil.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="proyek">
+      <div class="section-heading">
+        <p class="eyebrow">03 / KARYA PILIHAN</p>
+        <h2>Proyek yang <span class="accent">saya buat.</span></h2>
+        <p class="section-subtitle">proyek yang saat ini saya kerjakan.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-art art-one"><span class="project-symbol">01</span><span class="art-label">PYTHON</span></div>
+          <div class="project-info"><p class="project-type">LATIHAN PEMROGRAMAN</p><h3>Program Menu Sederhana</h3><p>Program latihan menggunakan input, percabangan, perulangan, dan list.</p><span class="project-tag">Python dasar</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-art art-two"><span class="project-symbol">02</span><span class="art-label">WEB DESIGN</span></div>
+          <div class="project-info"><p class="project-type">PENGEMBANGAN WEB</p><h3>Website Profil Pribadi</h3><p>Website responsif untuk memperkenalkan diri, pendidikan, minat, dan kontak.</p><span class="project-tag">HTML • CSS • JS</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="kontak">
+      <div class="container contact-inner">
+        <div>
+          <p class="eyebrow">04 / KONTAK</p>
+          <h2>Mari terhubung<br><span class="accent">dan bertukar ide.</span></h2>
+          <p class="contact-copy">Punya pertanyaan, ide, atau ingin berdiskusi? Kamu bisa menghubungi saya melalui tautan berikut.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:emailkamu@example.com" class="contact-link"><span class="contact-icon">✉</span><span><small>EMAIL</small><strong>UdaGaming21@gmail.com</strong></span><span class="arrow">↗</span></a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="contact-link"><span class="contact-icon">◎</span><span><small>INSTAGRAM</small><strong>@Uda.kun</strong></span><span class="arrow">↗</span></a>
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="contact-link"><span class="contact-icon">⌘</span><span><small>GITHUB</small><strong>Udazann</strong></span><span class="arrow">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#beranda">Profil<span>Uda</span></a>
+      <p>Dirancang dan dibuat dengan semangat belajar.</p>
+      <p>© <span id="year"></span> Uda Amirudin</p>
+    </div>
+  </footer>
+</body>
+</html>
